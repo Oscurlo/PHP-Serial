@@ -16,7 +16,10 @@ Example
 
 ```php
 <?php
-include 'PhpSerial.php';
+
+include "./vendor/autoload.php";
+
+use Hyperthese\PhpSerial\PhpSerial;
 
 // Let's start the class
 $serial = new PhpSerial;

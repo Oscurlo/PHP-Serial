@@ -10,11 +10,19 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "classmap": ["src/"]
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Hyperthese\\PhpSerial\\": "src/"
+        }
     },
     "extra": {
         "branch-alias": {
             "dev-develop": "1.0.x-dev"
         }
-    }
+    },
+  "require": {
+    "ext-http": "*"
+  }
 }
